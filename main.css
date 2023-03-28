@@ -1238,22 +1238,34 @@ h6 {
     height: 1283px;
     top: 7595px;
     background: #F4F4F4;
+    margin-top: 145px;
 }
 .pricing__header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 144px;
-    width: 1200px;
+    gap: 300px;
     height: 166px;
+    margin-bottom: 75px;
 }
-.pricing__header > span {
+.pricing__header > p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #7E7E7E;
+    width: 579px;
 
 }
+
+.pricing_title--subText {
+    background-color: #ffffff;
+}
+
+
+.pricing--title {
+    width: 500px;
+}
+
 .pricing--title > h2 {
     color: #1C2752;
     font-weight: 800;
@@ -1285,4 +1297,26 @@ h6 {
     height: 596px;
     background: #FFFFFF;
     flex-direction: column;
+}
+
+.boxx-header, .box-header, .box-header{
+    display: flex;
+    flex-direction: row;
+    
+}
+.boxx-title > h3 {
+    color: #1C2752;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+.boxx-title > h2 {
+    color: #1C2752;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.boxx__list {
+    list-style: url(./images/Icon\ \(7\).png);
 }
